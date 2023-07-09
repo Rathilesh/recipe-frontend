@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
            <Route path="recipe-details/:id" element={<RecipeDetails />} />
            <Route path="category-recepies/:id" element={<RecipeDetailsByCategory />} />
            <Route path="search/:query" element={<SearchedRecipe />} />
-           <Route path="*" element={<NoPage />} />
+           <Route path="*" element={<NoPage />} /> 
         </Route>
       </Routes>
     </BrowserRouter>
